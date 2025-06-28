@@ -1,0 +1,10 @@
+@model ProductCreateViewModel
+
+<h2>Ürün Açıklaması</h2>
+
+<p><strong>Başlık:</strong> @Model.Title</p>
+<p><strong>Özellikler:</strong> @Model.Features</p>
+<p><strong>Açıklama:</strong></p>
+<p>@Model.Description</p>
+
+<a asp-action="Create">Yeni Ürün</a>
